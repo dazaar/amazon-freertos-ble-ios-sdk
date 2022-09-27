@@ -10,7 +10,7 @@ public class AmazonFreeRTOSManager: NSObject {
     public static let shared = AmazonFreeRTOSManager()
 
     /// Enable debug messages.
-    public var isDebug: Bool = false
+    public var isDebug: Bool = true
     /// Debug messages.
     public var debugMessages = String()
 
